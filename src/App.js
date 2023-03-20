@@ -1,4 +1,4 @@
-import "./App.css";
+import Navbar from "./components/Navbar";
 import ReactPlayer from "react-player";
 import { useState } from "react";
 
@@ -11,7 +11,8 @@ function App() {
   // };
   return (
     <div className="App">
-      <h1>React Video Player</h1>
+      <Navbar />
+      <strong>Video Player</strong>
 
       <div>
         <div>
